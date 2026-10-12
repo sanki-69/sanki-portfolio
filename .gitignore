@@ -1,0 +1,6 @@
+node_modules
+dist
+.vercel
+
+# design reference image, not part of the site
+6900871583ca9169706651.png
