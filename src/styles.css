@@ -347,6 +347,9 @@ main, footer { max-width: var(--max); margin-inline: auto }
 /* live project screenshot in a browser frame */
 .visual-link { display: grid; color: inherit; text-decoration: none }
 .project-visual--shot { place-items: end center; padding: 56px clamp(16px, 3vw, 40px) 0 }
+/* alternate cards put the screenshot on the right */
+.project--flip .visual-link, .project--flip > .project-visual { order: 2 }
+.project--wide.project--flip .project-visual { border-right: 0; border-left: 1px solid var(--line) }
 .browser {
   width: 100%; max-width: 640px;
   overflow: hidden;
@@ -560,6 +563,8 @@ body::after {
   .work-grid { grid-template-columns: minmax(0, 1fr) }
   .project--wide { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 1fr }
   .project--wide .project-visual { min-height: 250px; border-right: 0; border-bottom: 1px solid var(--line) }
+  .project--flip .visual-link, .project--flip > .project-visual { order: 0 }
+  .project--wide.project--flip .project-visual { border-left: 0 }
   .contact-list { grid-template-columns: minmax(0, 1fr) }
   .tl-item { grid-template-columns: minmax(0, 1fr) }
   .tl-main:last-child { grid-column: auto }

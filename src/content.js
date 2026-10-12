@@ -39,7 +39,7 @@ export const content = {
     ],
 
     workL: 'Selected work',
-    workHead: 'My thesis, now live: an AI shop for Mongolian shoppers.',
+    workHead: 'Projects: AI Shop and ClutchZone.',
     live: 'Visit live site',
     projects: [
       {
@@ -54,6 +54,19 @@ export const content = {
         stack: ['React', 'TypeScript', 'Python', 'AI API', 'MongoDB', 'Browser Extension'],
         url: 'https://aishop-rho.vercel.app',
         image: 'aishop',
+      },
+      {
+        id: 'w-clutchzone', yr: '2026', title: 'ClutchZone',
+        role: 'Online shop for gaming gear · Ulaanbaatar',
+        points: [
+          'An online shop for gaming gear such as mouse cases, mousepads, skates and grip tape, with category filters.',
+          'Products and prices load from a REST API, and every order is saved through it.',
+          'The cart removes the delivery fee automatically at three or more items.',
+          'Checkout copies the order text and opens a Messenger chat, so customers order in one step.',
+        ],
+        stack: ['React', 'Vite', 'REST API', 'Render'],
+        url: 'https://clutchzone-cqec.onrender.com',
+        image: 'clutchzone',
       },
     ],
 
@@ -126,7 +139,7 @@ export const content = {
     ],
 
     workL: 'projects',
-    workHead: 'дипломын ажил: AI onlineshop.',
+    workHead: 'Төслүүд: AI onlineshop ба ClutchZone.',
     live: 'Сайтыг үзэх',
     projects: [
       {
@@ -141,6 +154,19 @@ export const content = {
         stack: ['React', 'TypeScript', 'Python', 'AI API', 'MongoDB', 'Browser Extension'],
         url: 'https://aishop-rho.vercel.app',
         image: 'aishop',
+      },
+      {
+        id: 'w-clutchzone', yr: '2026', title: 'ClutchZone',
+        role: 'Тоглоомын хэрэгслийн онлайн дэлгүүр · Улаанбаатар',
+        points: [
+          'Mouse case, mousepad, skate, griptape зэрэг тоглоомын хэрэгслийг ангиллаар шүүж үздэг онлайн дэлгүүр.',
+          'Бараа, үнийн мэдээллийг REST API-аас ачаалж, захиалга бүрийг API-аар бүртгэдэг.',
+          '3 болон түүнээс дээш бараа авахад сагс хүргэлтийн төлбөрийг автоматаар хасдаг.',
+          'Захиалгын текстийг автоматаар хуулж, Messenger чат нээдэг тул хэрэглэгч нэг алхмаар захиална.',
+        ],
+        stack: ['React', 'Vite', 'REST API', 'Render'],
+        url: 'https://clutchzone-cqec.onrender.com',
+        image: 'clutchzone',
       },
     ],
 

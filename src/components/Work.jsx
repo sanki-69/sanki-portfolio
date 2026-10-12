@@ -1,10 +1,11 @@
 import Cube from './Cube.jsx'
 import { ArrowIcon } from './Hero.jsx'
 import aishop from '../assets/aishop.jpg'
+import clutchzone from '../assets/clutchzone.jpg'
 import SplitWords from './SplitWords.jsx'
 
 const VISUALS = ['blue', 'pink', 'glow']
-const IMAGES = { aishop }
+const IMAGES = { aishop, clutchzone }
 
 function Visual({ p, i }) {
   const img = p.image && IMAGES[p.image]
@@ -37,7 +38,8 @@ export default function Work({ t }) {
       <h2 className="h2 narrow" data-reveal="split"><SplitWords lines={[t.workHead]} /></h2>
       <div className="work-grid">
         {t.projects.map((p, i) => (
-          <article className={`card project ${i === 0 ? 'project--wide' : ''}`} id={p.id} key={p.id}
+          // Live projects with screenshots get a full-width card; every second one flips sides.
+          <article className={`card project ${p.image || i === 0 ? 'project--wide' : ''} ${i % 2 ? 'project--flip' : ''}`} id={p.id} key={p.id}
             data-reveal style={{ '--i': i + 1 }}>
             {p.url
               ? <a className="visual-link" href={p.url} target="_blank" rel="noopener noreferrer" tabIndex={-1} aria-hidden="true"><Visual p={p} i={i} /></a>
