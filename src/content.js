@@ -39,7 +39,7 @@ export const content = {
     ],
 
     workL: 'Selected work',
-    workHead: 'Projects: AI Shop and ClutchZone.',
+    workHead: 'Projects: AI Shop, ClutchZone and Time Echo.',
     live: 'Visit live site',
     projects: [
       {
@@ -67,6 +67,20 @@ export const content = {
         stack: ['React', 'Vite', 'REST API', 'Render'],
         url: 'https://clutchzone.ub.mn',
         image: 'clutchzone',
+      },
+      {
+        id: 'w-timeecho', yr: '2026', title: 'Time Echo',
+        role: '3D puzzle game · Plays in the browser',
+        points: [
+          'A 3D puzzle platformer: every loop, your past self replays your last run, and you work together to escape.',
+          'Your echo is solid. It holds buttons and doors open, and you can stand on its head to reach higher ground.',
+          '20 levels across four themed worlds, from Dawn Garden to Frost Ruins, with moving platforms, lasers, spikes and thin ice.',
+          'Built with Three.js. Progress saves in the browser, and the camera turns and zooms.',
+        ],
+        stack: ['Three.js', 'WebGL', 'Vite', 'Vercel'],
+        url: 'https://togloom-ten.vercel.app',
+        image: 'timeecho',
+        cta: 'Play the game',
       },
     ],
 
@@ -139,7 +153,7 @@ export const content = {
     ],
 
     workL: 'projects',
-    workHead: 'Төслүүд: AI onlineshop ба ClutchZone.',
+    workHead: 'Төслүүд: AI onlineshop, ClutchZone ба Time Echo.',
     live: 'Сайтыг үзэх',
     projects: [
       {
@@ -167,6 +181,20 @@ export const content = {
         stack: ['React', 'Vite', 'REST API', 'Render'],
         url: 'https://clutchzone.ub.mn',
         image: 'clutchzone',
+      },
+      {
+        id: 'w-timeecho', yr: '2026', title: 'Time Echo',
+        role: '3D оньсого тоглоом · Браузерт тоглоно',
+        points: [
+          'Давталт бүрт өмнөх "чи" сүүлийн оролдлогоо давтаж, хамтдаа гарцаа олдог 3D оньсого тоглоом.',
+          'Echo нь биетэй: товч, хаалгыг дарж барьдаг, толгой дээр нь гарч өндөрт хүрч болно.',
+          'Dawn Garden-аас Frost Ruins хүртэл 4 ертөнцөд 20 үе: хөдөлгөөнт тавцан, лазер, өргөс, нимгэн мөс.',
+          'Three.js дээр бүтээсэн. Явц нь браузерт хадгалагдаж, камерыг эргүүлж, ойртуулж болно.',
+        ],
+        stack: ['Three.js', 'WebGL', 'Vite', 'Vercel'],
+        url: 'https://togloom-ten.vercel.app',
+        image: 'timeecho',
+        cta: 'Тоглох',
       },
     ],
 

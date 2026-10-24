@@ -2,10 +2,11 @@ import Cube from './Cube.jsx'
 import { ArrowIcon } from './Hero.jsx'
 import aishop from '../assets/aishop.jpg'
 import clutchzone from '../assets/clutchzone.jpg'
+import timeecho from '../assets/timeecho.jpg'
 import SplitWords from './SplitWords.jsx'
 
 const VISUALS = ['blue', 'pink', 'glow']
-const IMAGES = { aishop, clutchzone }
+const IMAGES = { aishop, clutchzone, timeecho }
 
 function Visual({ p, i }) {
   const img = p.image && IMAGES[p.image]
@@ -54,7 +55,7 @@ export default function Work({ t }) {
               <ul className="chips">{p.stack.map((s) => <li key={s}>{s}</li>)}</ul>
               {p.url && (
                 <a className="btn project-link" href={p.url} target="_blank" rel="noopener noreferrer">
-                  <span>{t.live}</span>
+                  <span>{p.cta || t.live}</span>
                   <i><ArrowIcon /></i>
                 </a>
               )}
