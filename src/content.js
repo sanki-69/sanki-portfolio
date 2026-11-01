@@ -1,4 +1,4 @@
-// All site text, in English and Mongolian, following the CV (CV-Erdene-Tuvshinsanaa-new.pdf).
+// All site text, in English and Mongolian, following the CV (CV-Erdene-Tuvshinsanaa (3).pdf, 2026-11).
 // Edit here to change what the site says.
 
 export const EMAIL = 'sanki0715@gmail.com'
@@ -9,7 +9,7 @@ export const content = {
   en: {
     fullName: 'Tuvshinsanaa Erdene',
     nick: 'Sanki',
-    title: 'Developer & UI/UX Designer',
+    title: 'Fullstack & AI Developer',
     nav: { about: 'About', work: 'Work', experience: 'Experience', skills: 'Skills', contact: 'Contact' },
     headline: ['Developer &', 'UI/UX Designer'],
     sub: "Hi, I'm Tuvshinsanaa (Sanki), a Computer Science graduate from MUST.",
@@ -33,7 +33,7 @@ export const content = {
       "Sings when no one's listening",
     ],
     cols: [
-      { label: 'Roles I want', items: ['Frontend Developer', 'UI/UX Designer', 'AI Developer'] },
+      { label: 'Roles I want', items: ['Fullstack Developer', 'AI Developer', 'UI/UX Designer'] },
       { label: 'Personal skills', items: ['Teamwork', 'Communication', 'Responsibility', 'Initiative', 'Working under pressure'] },
       { label: 'Interests', items: ['Chess', 'Volleyball', 'Table tennis', 'Cycling', 'Swimming', 'Singing'] },
     ],
@@ -90,7 +90,7 @@ export const content = {
       {
         when: '2025', org: 'iTrip LLC', role: 'Professional intern (UI/UX, Frontend)',
         points: [
-          'Redesigned the Flight Search Results UI/UX for the ZUGA project in Figma and proposed UX improvements.',
+          'Worked on the UI/UX redesign and improvements for version 2 of the ZUGA project in Figma.',
           'Researched and proposed React Virtuoso, a virtualized list, to render large flight datasets fast.',
           'Built a To-Do List web app in React.',
           'Coordinated design and development with the team to meet requirements.',
@@ -123,7 +123,7 @@ export const content = {
   mn: {
     fullName: 'Э. Түвшинсанаа',
     nick: 'Санки',
-    title: 'Developer & UI/UX Designer',
+    title: 'Fullstack & AI хөгжүүлэгч',
     nav: { about: 'Миний тухай', work: 'Бүтээл', experience: 'Туршлага', skills: 'Ур чадвар', contact: 'Холбоо барих' },
     headline: ['Developer &', 'UI/UX Designer'],
     sub: 'Сайн байна уу, би Түвшинсанаа (Санки), ШУТИС компьютерийн ухааны төгсөгч.',
@@ -147,7 +147,7 @@ export const content = {
       'Хэн ч сонсохгүй үед дуулдаг',
     ],
     cols: [
-      { label: 'Хүсэж буй ажил', items: ['Frontend хөгжүүлэгч', 'UI/UX дизайнер', 'Хиймэл оюуны хөгжүүлэгч'] },
+      { label: 'Хүсэж буй ажил', items: ['Fullstack хөгжүүлэгч', 'Хиймэл оюуны хөгжүүлэгч', 'UI/UX дизайнер'] },
       { label: 'Хувь хүний ур чадвар', items: ['Багаар ажиллах', 'Харилцааны чадвар', 'Хариуцлага', 'Шинийг санаачлах', 'Ачаалалтай орчинд ажиллах'] },
       { label: 'Сонирхол', items: ['Шатар', 'Гар бөмбөг', 'Ширээний теннис', 'Дугуй', 'Усан спорт', 'Дуулах'] },
     ],
@@ -204,7 +204,7 @@ export const content = {
       {
         when: '2025', org: '«Ай Трип» ХХК', role: 'Мэргэжлийн дадлагажигч (UI/UX, Frontend)',
         points: [
-          'Figma ашиглан ZUGA төслийн V2-ийн (UI/UX) шинэчлэлт сайжруулантанд дээр ажилсан.',
+          'Figma ашиглан ZUGA төслийн V2-ийн UI/UX шинэчлэлт, сайжруулалт дээр ажилласан.',
           'Их хэмжээний нислэгийн өгөгдлийг хурдан харуулах React Virtuoso (virtualized list) шийдлийг судалж, санал болгосон.',
           'React дээр To-Do List вэб програм хөгжүүлсэн.',
           'Дизайн, хөгжүүлэлтийн ажлыг багтайгаа шаардлагын дагуу уялдуулсан.',
